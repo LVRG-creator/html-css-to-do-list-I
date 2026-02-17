@@ -5,9 +5,9 @@ main {
 body {
     background: lightblue;
 }
-ul#task-list{
-    list-style-type: none;
-    outline: black
+
+#header {
+    text-align: center;
 }
 
 .task-list input[type="checkbox"]:checked + label {
