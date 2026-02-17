@@ -1,0 +1,17 @@
+main {
+    padding: 10px;
+}
+
+body {
+    background: lightblue;
+}
+ul#task-list{
+    list-style-type: none;
+    outline: black
+}
+
+.task-list input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: none;
+    background-color: greenyellow;
+}
